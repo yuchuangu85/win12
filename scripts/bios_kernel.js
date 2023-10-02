@@ -14,7 +14,7 @@ function timeChange() {
 }
 function toBoot() {
     document.getElementById('background').style.display = '';
-    setTimeout('document.getElementById(`body`).innerHTML=``;document.getElementById(`body`).style.cssText=`background-color: black;`;', 500); setTimeout('window.location.href=`./boot.html`', 1000); //Boot延迟
+    setTimeout('document.getElementById(`body`).innerHTML=``;document.getElementById(`body`).style.cssText=`background-color: black;`;', 500); setTimeout('window.location.href=`../boot.html`', 1000); //Boot延迟
 }
 function BIOS_confirm(tit, okcode, width) {
     document.getElementById('confirm-tit').innerHTML = tit;

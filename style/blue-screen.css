@@ -1,0 +1,181 @@
+body{
+    background-color: #005eaa;
+    cursor: none;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 70%;
+    left: 15%;
+    position: absolute;
+    height: 100%;
+    justify-content: center;
+}
+#happy-face{
+    color: #fff;
+    font-size: 150px;
+    margin: 0;
+    line-height: 1;
+    /* margin-left: -40px; */
+    margin-top: -10px;
+    height: 150px;
+    height: 150px;
+    display: flex;
+}
+#happy-face>*{
+    position: relative;
+    line-height: 0px;
+}
+@keyframes eyea{
+    0%{
+        top: -140px;
+        left: -40px;
+    }
+    15%{
+        top: -150px;
+        left: -60px;
+    }
+    25%{
+        top: -140px;
+        left: -40px;
+    }
+    35%{
+        top: -150px;
+        left: -20px;
+    }
+    50%{
+        top: -140px;
+        left: -40px;
+    }
+    85%{
+        top: -140px;
+        left: -40px;
+    }
+    95%{
+        top: -45px;
+        left: -40px;
+    }
+    /* 63%{
+        top: 0px;
+        left: 0;
+    } */
+}
+#happy-face>.eye.a{
+    top: -45px;
+    left: -40px;
+    animation: eyea 2s;
+}
+@keyframes eyeb{
+    0%{
+        top: -140px;
+        left: 14px;
+    }
+    15%{
+        top: -150px;
+        left: -6px;
+    }
+    25%{
+        top: -140px;
+        left: 14px;
+    }
+    35%{
+        top: -150px;
+        left: 34px;
+    }
+    50%{
+        top: -140px;
+        left: 24px;
+    }
+    90%{
+        top: -140px;
+        left: 24px;
+    }
+}
+#happy-face>.eye.b{
+    left: -76px;
+    top: -125px;
+    animation: eyeb 2s;
+}
+@keyframes mou{
+    0%{
+        transform: rotate(90deg);
+        top: 10px;
+        left: -60px;
+    }
+    15%{
+        transform: rotate(120deg);
+        top: -10px;
+        left: -80px;
+    }
+    25%{
+        transform: rotate(90deg);
+        top: 10px;
+        left: -60px;
+    }
+    35%{
+        transform: rotate(60deg);
+        top: -10px;
+        left: -20px;
+    }
+    50%{
+        transform: rotate(270deg);
+        top: 10px;
+        left: -80px;
+    }
+    80%{
+        transform: rotate(270deg);
+        top: -10px;
+        left: -80px;
+    }
+    90%{
+        transform: rotate(180deg);
+        top: -25px;
+        left: -60px;
+    }
+    /* 50%{
+        transform: rotate(180deg);
+        top: 20px;
+        left: 50px;
+    } */
+}
+#happy-face>.mouse{
+    transform: rotate(180deg);
+    top: -25px;
+    left: -60px;
+    animation: mou 2s;
+}
+#tx1{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+#prog{
+    color: #fff;
+    font-size: 23px;
+}
+#dtx{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 17px;
+    margin-top: 0;
+}
+#qr{
+    min-width: 150px;
+    width: 150px;
+    height: 150px;
+    fill: #005eaa;
+}
+#detail{
+    display: flex;
+}
+.link{
+    color: #efefef;
+    text-decoration: none;
+    transition: 100ms;
+    cursor: pointer;
+}
+.link:hover{
+    color: #aaa;
+}

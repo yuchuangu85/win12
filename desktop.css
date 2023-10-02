@@ -1,5 +1,5 @@
-@import "./bootstrap-icons.css";
-@import "./base.css";
+@import "style/bootstrap-icons.css";
+@import "style/base.css";
 
 :root {
     --text: #000;
